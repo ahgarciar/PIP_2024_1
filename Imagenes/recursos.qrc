@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="Logos">
+    <file>FI_LOGO.png</file>
+  </qresource>
+</RCC>
