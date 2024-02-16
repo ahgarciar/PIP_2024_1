@@ -84,7 +84,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Imagenes/recursos.qrc">:/Logos/FI_LOGO.png</pixmap>
+     <pixmap resource="../Imagenes/recursos.qrc">:/Mascotas/gato.jpeg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -109,7 +109,7 @@
      <string>Equipo:</string>
     </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox">
+   <widget class="QCheckBox" name="cb_gato">
     <property name="geometry">
      <rect>
       <x>90</x>
@@ -119,10 +119,10 @@
      </rect>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>Gato</string>
     </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox_2">
+   <widget class="QCheckBox" name="cb_cuyo">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -132,7 +132,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>Cuyo</string>
     </property>
    </widget>
    <widget class="QLabel" name="img_persona_2">
@@ -148,7 +148,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Imagenes/recursos.qrc">:/Logos/FI_LOGO.png</pixmap>
+     <pixmap resource="../Imagenes/recursos.qrc">:/Mascotas/cuyo.jpeg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -167,13 +167,13 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Imagenes/recursos.qrc">:/Logos/FI_LOGO.png</pixmap>
+     <pixmap resource="../Imagenes/recursos.qrc">:/Mascotas/perro.jpeg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox_3">
+   <widget class="QCheckBox" name="cb_perro">
     <property name="geometry">
      <rect>
       <x>430</x>
@@ -183,27 +183,27 @@
      </rect>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>Perro</string>
     </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox_4">
+   <widget class="QCheckBox" name="cb_conejo">
     <property name="geometry">
      <rect>
       <x>610</x>
-      <y>210</y>
+      <y>220</y>
       <width>85</width>
       <height>20</height>
      </rect>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>Conejo</string>
     </property>
    </widget>
    <widget class="QLabel" name="img_persona_4">
     <property name="geometry">
      <rect>
       <x>610</x>
-      <y>100</y>
+      <y>110</y>
       <width>101</width>
       <height>111</height>
      </rect>
@@ -212,13 +212,13 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Imagenes/recursos.qrc">:/Logos/FI_LOGO.png</pixmap>
+     <pixmap resource="../Imagenes/recursos.qrc">:/Mascotas/conejo.jpeg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit">
+   <widget class="QTextEdit" name="text_equipo">
     <property name="geometry">
      <rect>
       <x>330</x>

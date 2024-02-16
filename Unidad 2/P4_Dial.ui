@@ -103,7 +103,7 @@
      <string>Usuario:</string>
     </property>
    </widget>
-   <widget class="QDial" name="dial">
+   <widget class="QDial" name="dial_mascotas">
     <property name="geometry">
      <rect>
       <x>90</x>

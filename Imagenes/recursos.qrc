@@ -2,4 +2,11 @@
   <qresource prefix="Logos">
     <file>FI_LOGO.png</file>
   </qresource>
+  <qresource prefix="Mascotas">
+    <file>conejo.jpeg</file>
+    <file>cuyo.jpeg</file>
+    <file>hamster.jpeg</file>
+    <file>gato.jpeg</file>
+    <file>perro.jpeg</file>
+  </qresource>
 </RCC>

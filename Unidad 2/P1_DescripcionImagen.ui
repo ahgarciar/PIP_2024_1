@@ -55,9 +55,9 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>620</x>
+      <x>640</x>
       <y>250</y>
-      <width>121</width>
+      <width>101</width>
       <height>71</height>
      </rect>
     </property>
@@ -65,7 +65,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../Imagenes/recursos.qrc">:/Logos/FI_LOGO.png</pixmap>
+     <pixmap resource="../Imagenes/recursos.qrc">:/Mascotas/hamster.jpeg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -90,7 +90,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btn_atras">
     <property name="geometry">
      <rect>
       <x>40</x>
@@ -103,7 +103,7 @@
      <string>Atras</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="btn_adelante">
     <property name="geometry">
      <rect>
       <x>210</x>
@@ -192,7 +192,7 @@
      <string>Tipo de Sangre:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="txt_nombre">
     <property name="geometry">
      <rect>
       <x>430</x>
@@ -211,7 +211,7 @@
      <string>ttt</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="txt_pasatiempo">
     <property name="geometry">
      <rect>
       <x>430</x>
@@ -230,7 +230,7 @@
      <string>ttt</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
+   <widget class="QLineEdit" name="txt_edad">
     <property name="geometry">
      <rect>
       <x>430</x>
@@ -249,7 +249,7 @@
      <string>ttt</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_4">
+   <widget class="QLineEdit" name="txt_tipo_sangre">
     <property name="geometry">
      <rect>
       <x>430</x>

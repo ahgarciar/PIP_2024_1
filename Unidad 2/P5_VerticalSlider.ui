@@ -103,7 +103,7 @@
      <string>Usuario:</string>
     </property>
    </widget>
-   <widget class="QSlider" name="verticalSlider">
+   <widget class="QSlider" name="vs_mascotas">
     <property name="geometry">
      <rect>
       <x>120</x>

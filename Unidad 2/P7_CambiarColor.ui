@@ -71,7 +71,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="img_persona">
+   <widget class="QLabel" name="colorburguer">
     <property name="geometry">
      <rect>
       <x>420</x>
@@ -80,14 +80,14 @@
       <height>131</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(31, 0, 20);</string>
+    </property>
     <property name="text">
      <string/>
     </property>
-    <property name="pixmap">
-     <pixmap resource="../Imagenes/recursos.qrc">:/Logos/FI_LOGO.png</pixmap>
-    </property>
     <property name="scaledContents">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -103,7 +103,7 @@
      <string>Colores:</string>
     </property>
    </widget>
-   <widget class="QSlider" name="horizontalSlider">
+   <widget class="QSlider" name="valorR">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -116,7 +116,7 @@
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QSlider" name="horizontalSlider_2">
+   <widget class="QSlider" name="valorG">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -129,7 +129,7 @@
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QSlider" name="horizontalSlider_3">
+   <widget class="QSlider" name="valorB">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -142,7 +142,7 @@
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="txt_R">
     <property name="geometry">
      <rect>
       <x>310</x>
@@ -152,7 +152,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="txt_G">
     <property name="geometry">
      <rect>
       <x>310</x>
@@ -162,7 +162,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
+   <widget class="QLineEdit" name="txt_B">
     <property name="geometry">
      <rect>
       <x>310</x>
