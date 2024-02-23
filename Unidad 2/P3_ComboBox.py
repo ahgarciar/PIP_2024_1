@@ -1,5 +1,5 @@
 import sys
-from PyQt5 import uic, QtWidgets, QtGui
+from PyQt5 import uic, QtWidgets, QtGui, QtCore, Qt
 qtCreatorFile = "P3_ComboBox.ui"  # Nombre del archivo aquí.
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 
@@ -45,3 +45,5 @@ if __name__ == "__main__":
     window.show()
     sys.exit(app.exec_())
 
+
+##alinear combobox...... REVISAR
