@@ -20,5 +20,5 @@ void loop() {
   
   Serial.println("Distancia:" + String(cm) + "cm."); 
   
-  delay(500); 
+  delay(100); 
 }

@@ -5,16 +5,16 @@ Servo servo;
 
 void setup(){ 
   Serial.begin(9600);
-  servoMotor.attach(pinServo);
+  servo.attach(pinServo);
 }
  
 void loop(){
 
-  servoMotor.write(0);
+  servo.write(0);
   Serial.println("Servo en 0°");
   delay(500); 
     
-  servoMotor.write(180);
+  servo.write(180);
   Serial.println("Servo en 180°");
   delay(500); 
 }
