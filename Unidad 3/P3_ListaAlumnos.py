@@ -2,7 +2,7 @@ import P2_LeerArchivos as moduloArchivos
 
 import sys
 from PyQt5 import uic, QtWidgets, QtGui
-qtCreatorFile = "P3_ListaAlumnos.ui"  # Nombre del archivo aquí.
+qtCreatorFile = "P21_InterfazConexionArduino1.ui"  # Nombre del archivo aquí.
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 
 class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
