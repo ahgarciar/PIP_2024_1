@@ -299,4 +299,4 @@ class Ui_MainWindow(object):
         self.label_11.setText(_translate("MainWindow", "Ymin:"))
         self.label_13.setText(_translate("MainWindow", "T. Divisiones: "))
 
-        self.txt_polinomio.setText(_translate("MainWindow", "2x^2+4x+3"))
+        self.txt_polinomio.setText(_translate("MainWindow", "2x^2+4"))

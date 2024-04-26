@@ -3,7 +3,6 @@ import sys
 from PyQt5 import QtWidgets
 
 from Ejemplo_JuegoGrafica import Plantilla_Juego as grafica
-
 import matplotlib.pyplot as plt
 
 class MyApp(QtWidgets.QMainWindow, grafica.Ui_MainWindow):
@@ -48,7 +47,8 @@ class MyApp(QtWidgets.QMainWindow, grafica.Ui_MainWindow):
 
             import random as rnd
             #computadora
-            self.personajes[1] = [rnd.randrange(self.xMin, self.xMax), rnd.randrange(self.yMin, self.yMax)]
+            self.personajes[1] = [rnd.randrange(self.xMin, self.xMax),
+                                  rnd.randrange(self.yMin, self.yMax)]
             self.graficar()
         else:
             self.btn_action.setText("INICIAR")
@@ -57,7 +57,7 @@ class MyApp(QtWidgets.QMainWindow, grafica.Ui_MainWindow):
 
     def arriba(self):#     v  => valor de y
         self.personajes[0][1] = self.personajes[0][1] + 1
-        self.limpiar()
+        #self.limpiar()
         self.graficar()
 
     def izquierda(self):#  v  => valor de x

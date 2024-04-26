@@ -85,6 +85,9 @@ class MyApp(QtWidgets.QMainWindow, interfaz.Ui_MainWindow):
         self.yMin = 1
         self.yDivisiones = 10
 
+        ##
+        self.btn_grilla.setText("ON")
+
     # Área de los Slots
     def minX(self):
         self.xMin = self.sp_Xmin.value()
@@ -150,14 +153,14 @@ class MyApp(QtWidgets.QMainWindow, interfaz.Ui_MainWindow):
         if texto == "OFF":
             self.btn_grilla.setText("ON")
             plt.grid(False)
-        else:
+        else: #ON
             self.btn_grilla.setText("OFF")
             plt.grid(True)
 
         self.canvas.draw()
 
     def graficar(self):
-        polinomio = self.txt_polinomio.text()
+        polinomio = self.txt_polinomio.text()  # Ej: 2x^2+4
         polinomio = polinomio.replace("^","**")
 
         #x = [i for i in range(-5,6)] #[-5 5]
@@ -173,15 +176,14 @@ class MyApp(QtWidgets.QMainWindow, interfaz.Ui_MainWindow):
         #self.ax.plot(x,y)
         #self.ax.plot(x, y,"g*--")
         self.ax.plot(x, y,
-
                  linestyle= self.estiloLinea,  #: - -- -.
                  color= self.colorLinea,  # color de la linea
                  linewidth= self.anchoLinea,  # tamaño de la linea
-                 marker="x",  # o . *  x   1
-                 markersize=12,
+                 marker="o",  # o . *  x   1
+                 markersize=4,
                  markerfacecolor="yellow",  # color interno del marcador
-                 markeredgewidth=2,  # tamaño del borde del marcador
-                 markeredgecolor="red",  # color del borde del marcador
+                 markeredgewidth=1,  # tamaño del borde del marcador
+                 markeredgecolor="blue",  # color del borde del marcador
                  dash_capstyle="butt",  # dash or solid : "butt" "round" "projecting"
                  dash_joinstyle="miter"  # dash or solid : "miter" "round" "bevel"
                  )
