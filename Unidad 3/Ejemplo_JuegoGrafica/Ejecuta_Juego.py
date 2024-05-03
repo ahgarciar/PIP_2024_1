@@ -57,7 +57,7 @@ class MyApp(QtWidgets.QMainWindow, grafica.Ui_MainWindow):
 
     def arriba(self):#     v  => valor de y
         self.personajes[0][1] = self.personajes[0][1] + 1
-        #self.limpiar()
+        self.limpiar()
         self.graficar()
 
     def izquierda(self):#  v  => valor de x

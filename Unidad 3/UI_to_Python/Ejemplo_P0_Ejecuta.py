@@ -1,4 +1,4 @@
-from UI_to_Python import P1_Ejemplo
+import P1_Ejemplo
 
 import sys
 from PyQt5 import uic, QtWidgets, QtGui

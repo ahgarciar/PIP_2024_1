@@ -2,7 +2,7 @@ import sys
 
 from PyQt5 import uic, QtWidgets, QtCore
 
-from UI_to_Python import P1_Ejemplo as interfaz
+import P1_Ejemplo as interfaz
 
 class MyApp(QtWidgets.QMainWindow, interfaz.Ui_MainWindow):
     def __init__(self):

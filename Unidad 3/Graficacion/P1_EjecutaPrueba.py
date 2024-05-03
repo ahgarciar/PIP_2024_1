@@ -1,5 +1,3 @@
-import P2_LeerArchivos as moduloArchivos
-
 import sys
 from PyQt5 import uic, QtWidgets, QtGui
 qtCreatorFile = "Plantilla_Grafica.ui"  # Nombre del archivo aquí.

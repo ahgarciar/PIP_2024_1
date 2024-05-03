@@ -1,7 +1,7 @@
 import sys
 from PyQt5 import QtWidgets
 
-from Graficacion import Plantilla_Grafica as interfaz
+import Plantilla_Grafica as interfaz
 import matplotlib.pyplot as plt
 
 class MyApp(QtWidgets.QMainWindow, interfaz.Ui_MainWindow):

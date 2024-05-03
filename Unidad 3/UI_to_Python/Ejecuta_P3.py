@@ -2,7 +2,7 @@ import sys
 
 from PyQt5 import uic, QtWidgets, QtCore, QtGui
 
-from UI_to_Python import P3_PAR_IMPAR as interfaz
+import P3_PAR_IMPAR as interfaz
 
 class MyApp(QtWidgets.QMainWindow, interfaz.Ui_MainWindow):
     def __init__(self):
