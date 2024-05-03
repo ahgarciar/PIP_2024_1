@@ -39,9 +39,10 @@ print("Pseudoinversa de X: ")
 print(Xpseudo)
 
 print("COMPROBACIÓN:")
-#C = Xpseudo.dot(X)
-#print(C)
+C = Xpseudo.dot(X)
+print(C)
 
-#print("Obtencion de I:")
+
+print("Obtencion de I:")
 C = X.dot(Xpseudo)
 print(C)
